@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6eed8dc-93f3-40d5-96c8-0942cae7a01e">
+  <producedTypes>
+    <refType typeId="bdd2fb7d-1278-47b5-90e6-056dd9482e7e" valueTypeId="17d8ec49-2653-46d6-97f0-8a8717abaaf0"/>
+    <listType typeId="3a00b10d-94aa-4340-a015-3abeedb104d0" valueTypeId="4a925f55-1875-4366-a897-633c8db11fc7"/>
+    <managerType typeId="e895a9f9-3a75-4ff8-8361-dda8f0b7b52e" valueTypeId="bdfee1a5-dbe3-49f1-b78e-0c787b24b1a2"/>
+  </producedTypes>
+  <name>ВерсВО_ТипАвторизацииGit</name>
+  <synonym>
+    <key>ru</key>
+    <value>Верс в о тип авторизации git</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="67d4e8ba-0789-4e67-8575-e415c51eda8f">
+    <name>SSH</name>
+    <synonym>
+      <key>ru</key>
+      <value>SSH</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a9800729-fec5-4529-a8a1-06cbe585e046">
+    <name>Токен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="882e8384-eefa-4f49-8922-bf858ac17c28">
+    <name>ЛогинПароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логин/Пароль</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

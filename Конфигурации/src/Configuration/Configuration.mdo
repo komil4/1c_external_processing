@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4ee948a9-c6fe-43a5-a865-69d5ac67c2d4">
+  <name>ВерсионированиеВнешнихОбработок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версионирование внешних обработок</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="493a045b-b22b-4a3e-8061-0640648670b1"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="413339b8-6693-44bb-981c-780192b1c370"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="700e4fcf-575a-4ee4-ad8d-1ddc3fc93482"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="d2c11978-eec1-43b4-8915-43a266bc3e05"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="35699b02-7c77-405f-ad82-29973297e185"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="e08cab43-7ba1-4e35-b01f-1ef6307f9260"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="309e7422-9d27-418d-807f-f54a3a2da137"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>ВерсВО_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <languages uuid="c6236c46-bd45-4c4a-a90c-b066ce69ae28" extendedConfigurationObject="ed1506c0-ae10-45f0-b356-945bab8ed3fd">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <styleItems>StyleItem.РезультатУспехЦвет</styleItems>
+  <styleItems>StyleItem.ПоясняющийОшибкуТекст</styleItems>
+  <styleItems>StyleItem.ПоясняющийТекст</styleItems>
+  <commonPictures>CommonPicture.ПиктограммыЭлементов</commonPictures>
+  <commonPictures>CommonPicture.ОбновитьФайлИзФайлаНаДиске</commonPictures>
+  <commonModules>CommonModule.ВерсВО_ОбщегоНазначения</commonModules>
+  <catalogs>Catalog.ДополнительныеОтчетыИОбработки</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ВерсВО_Константы</catalogs>
+  <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
+  <enums>Enum.ВерсВО_ТипыGitСервера</enums>
+  <enums>Enum.ВерсВО_ТипАвторизацииGit</enums>
+  <informationRegisters>InformationRegister.ВерсВО_ПользователиGit</informationRegisters>
+</mdclass:Configuration>

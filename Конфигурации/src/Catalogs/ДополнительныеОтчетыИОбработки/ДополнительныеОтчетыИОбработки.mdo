@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c1792b89-5737-444f-bcf1-a2910c122819" extendedConfigurationObject="92707138-5004-4378-8477-f909166d319d">
+  <producedTypes>
+    <objectType typeId="9ce6166d-85e3-4adc-8da6-aa615bea0a05" valueTypeId="5258f452-bfc6-4e8f-9f6c-fb9cb76cf815"/>
+    <refType typeId="ea7879be-8ee1-47a3-bd77-7cc0a3033b1f" valueTypeId="6ea1a9ff-fbaf-415a-a008-15e3469bb177"/>
+    <selectionType typeId="5e52eb7f-a2bd-4b31-8ea9-b7afe6ddee24" valueTypeId="fd5cb0ea-6062-473e-9fb8-40d1a0acd838"/>
+    <listType typeId="b9fb1968-ef63-4c88-bdea-e5c49b527d2b" valueTypeId="8e7b2be8-e55e-456e-b4ee-d7e2214d618b"/>
+    <managerType typeId="89e7ecaf-68e3-4743-a9e8-08598b47fe38" valueTypeId="16fe0d4d-e235-4db2-aa34-e5ca9b972648"/>
+  </producedTypes>
+  <name>ДополнительныеОтчетыИОбработки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="3d5287e2-6758-4a6d-85b9-f8b0e4a5efe3" extendedConfigurationObject="23a240a2-52ee-46ab-89d9-50dcee2cc8d2">
+    <name>Ответственный</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Пользователи</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <forms uuid="265fdbdc-95c1-4c09-8c48-a0ba8f0b73c2" extendedConfigurationObject="685373b7-638a-439a-8cba-703d56e4e404">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="6a64245d-a0c5-489a-8658-06d0f8e7f79f" extendedConfigurationObject="087480bb-8c89-4b00-a29b-b7e29926478d">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

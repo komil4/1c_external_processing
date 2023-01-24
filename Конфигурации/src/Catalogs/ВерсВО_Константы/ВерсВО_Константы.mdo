@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fd101f3-f8b7-4345-9dc0-4b008536b2bd">
+  <producedTypes>
+    <objectType typeId="9440aa33-409f-4c91-8b45-c82af7f1cca4" valueTypeId="8625a082-83c6-4b71-9eff-9c3301cd23cc"/>
+    <refType typeId="1c45cc16-8445-484b-b4d5-a1571865abf9" valueTypeId="2b21a9de-c0a4-4009-8e57-81dbcd31c82d"/>
+    <selectionType typeId="5245a41d-65bc-4ee2-9673-ffac6d10815f" valueTypeId="aa3267ba-a5bf-4b45-8a6c-aec94946cbdd"/>
+    <listType typeId="6c716e15-56fc-4827-aef3-03d0d8ed838e" valueTypeId="aa15acdc-dbf1-4a2b-9fbe-50762b094200"/>
+    <managerType typeId="8b783c96-4294-43b1-9373-9f0f8d6ceb96" valueTypeId="e6795ee7-910e-4d02-9791-14e041e87c96"/>
+  </producedTypes>
+  <name>ВерсВО_Константы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Константы (Версионирование обработок)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВерсВО_Константы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВерсВО_Константы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ВерсВО_Константы.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="28adcb70-d504-4d84-b740-53184927d03e">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВерсВО_ТипыGitСервера</types>
+      <types>Boolean</types>
+      <types>String</types>
+      <types>Date</types>
+      <types>Number</types>
+      <types>EnumRef.ВерсВО_ТипАвторизацииGit</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="947ac50b-07b9-4746-9a19-dc3b8c37a638">
+    <name>ЗначениеСкрытое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение скрытое</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <passwordMode>true</passwordMode>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="84ec69e0-9cbd-4c16-9ea7-01f0eaf0b89c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ed09ed1b-e993-412f-9bca-f4fbdf981230">
+    <name>ФормаМенеджерНастройки</name>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

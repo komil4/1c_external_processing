@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b91e75fa-4ee4-424d-a4c7-26681175be53">
+  <producedTypes>
+    <selectionType typeId="93d8fe8c-f9a7-484e-a804-bf3f068f3db1" valueTypeId="6dca5197-29c2-4bb8-87a9-31666c688a9b"/>
+    <listType typeId="3b977530-e766-46ca-9eca-c6db232b3f1f" valueTypeId="2c739a11-c985-4b4d-89f1-bc4d83db28d3"/>
+    <managerType typeId="7ce8cf79-f757-4a91-affe-1632373a563e" valueTypeId="f153a0d9-efb6-4db2-a634-18b0da9d8130"/>
+    <recordSetType typeId="4c032447-8feb-4ceb-8eb5-4c1323a8cc8a" valueTypeId="5a68036a-1ffb-487c-8736-d2a38d8b5d32"/>
+    <recordKeyType typeId="95890da7-c2b9-456c-bb8e-64a410e6061e" valueTypeId="d74606d9-054a-41f1-b12c-d8aea1895da4"/>
+    <recordType typeId="3f7a064c-6dea-4797-91c9-f0159b0f76a8" valueTypeId="d545019c-8941-4fb8-9577-18b443576ba4"/>
+    <recordManagerType typeId="5735af7d-b3fc-409a-8edb-d5a4ea2805e8" valueTypeId="a9a79f8b-e689-41ea-b290-84ccf90f3a6e"/>
+  </producedTypes>
+  <name>ВерсВО_ПользователиGit</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи Git (Версионирование обработок)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="bec0e3d5-06b4-497e-a1b1-cc18cb72873f">
+    <name>Логин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логин</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="1c3eb142-0386-4f93-9e93-e693b410e4fa">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="55f51b09-56d5-48cf-891f-f2eaede92780">
+    <name>Токен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="11576caf-ddfc-4324-be74-df7551655a3d">
+    <name>Email</name>
+    <synonym>
+      <key>ru</key>
+      <value>Email</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="725d3bb6-2825-4d50-9f61-51882170a8e0">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
