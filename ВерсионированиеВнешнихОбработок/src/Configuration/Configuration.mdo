@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4ee948a9-c6fe-43a5-a865-69d5ac67c2d4">
   <name>ВерсионированиеВнешнихОбработок</name>
-  <synonym>
-    <key>ru</key>
-    <value>Версионирование внешних обработок</value>
-  </synonym>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
     <defaultRunMode>Checked</defaultRunMode>
@@ -50,4 +46,5 @@
   <enums>Enum.ВерсВО_ТипыGitСервера</enums>
   <enums>Enum.ВерсВО_ТипАвторизацииGit</enums>
   <informationRegisters>InformationRegister.ВерсВО_ПользователиGit</informationRegisters>
+  <informationRegisters>InformationRegister.ВерсВО_ВыгрузкаВерсийОбработок</informationRegisters>
 </mdclass:Configuration>

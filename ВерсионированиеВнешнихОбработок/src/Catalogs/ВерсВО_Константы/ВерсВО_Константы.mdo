@@ -30,7 +30,6 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultListForm>Catalog.ВерсВО_Константы.Form.ФормаСписка</defaultListForm>
   <attributes uuid="28adcb70-d504-4d84-b740-53184927d03e">
     <name>Значение</name>
     <synonym>
@@ -79,15 +78,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="84ec69e0-9cbd-4c16-9ea7-01f0eaf0b89c">
-    <name>ФормаСписка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <forms uuid="ed09ed1b-e993-412f-9bca-f4fbdf981230">
     <name>ФормаМенеджерНастройки</name>
     <usePurposes>PersonalComputer</usePurposes>

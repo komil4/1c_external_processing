@@ -182,12 +182,16 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:InputFieldExtInfo">
+            <handlers>
+              <event>StartChoice</event>
+              <name>ПутьКЛокальномуРепозиториюНачалоВыбора</name>
+            </handlers>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
+            <choiceButton>true</choiceButton>
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -962,6 +966,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Пароль1С</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>Пароль1СПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>Пароль1СРасширеннаяПодсказка</name>
             <id>60</id>
@@ -1280,7 +1288,7 @@
           <id>81</id>
           <title>
             <key>ru</key>
-            <value>Сстрока подключения текущей БД:</value>
+            <value>Строка подключения текущей БД:</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1705,6 +1713,10 @@
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoTitle>true</autoTitle>
